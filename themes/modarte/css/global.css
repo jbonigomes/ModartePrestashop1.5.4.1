@@ -2109,3 +2109,82 @@ tr.subitem > td:first-child + td {
 .ie7 #featured-products_block_center .product_image span.new {top:110px;right:0;width:94%}
 .ie8 #featured-products_block_center .product_image span.new{top:110px;right:0;width:94%}
 .lt-ie6 #featured-products_block_center .product_image span.new {top:110px;right:0;width:94%}
+
+
+
+/*****************************************************/
+/* MODARTE SPECIFIC STYLES
+/*****************************************************/
+
+#header {
+	padding-bottom: 5px;
+}
+
+#footer {
+	background-color: #222;
+}
+
+.md-border-radius {
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.md-topnav {
+	display: block;
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 10px;
+	background-color: #222;
+}
+
+.md-topnav ul {
+	list-style-type: none;
+	overflow: hidden;
+	padding: 5px 0;
+	margin: 0 auto;
+	display: table;
+	text-align: center;
+}
+
+.md-topnav ul li {
+	float: left;
+}
+
+.md-topnav ul li i {
+	color: #fff;
+	display: block;
+	margin: 12px 33px;
+	font-size: 9px;
+}
+
+.md-topnav ul li a {
+	color: #fff;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+.md-topnav ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.md-add-bookmark {
+	float: right;
+	margin: 0 6px 0 0;
+	padding: 2px 6px;
+	-moz-border-bottom-right-radius: 3px;
+	-moz-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background: none repeat scroll 0 0 #000;
+}
