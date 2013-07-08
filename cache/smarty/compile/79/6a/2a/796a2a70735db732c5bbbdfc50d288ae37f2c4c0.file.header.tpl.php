@@ -1,24 +1,23 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-08 20:40:25
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-09 00:42:01
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:13486371551db15a9e07170-96365325%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:172318585651db4e497c4230-25284671%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '796a2a70735db732c5bbbdfc50d288ae37f2c4c0' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/header.tpl',
-      1 => 1366896192,
+      1 => 1373321832,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13486371551db15a9e07170-96365325',
+  'nocache_hash' => '172318585651db4e497c4230-25284671',
   'function' => 
   array (
   ),
   'variables' => 
   array (
     'lang_iso' => 0,
-    'meta_title' => 0,
     'meta_description' => 0,
     'meta_keywords' => 0,
     'meta_language' => 0,
@@ -56,9 +55,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51db15aa0c4458_94111468',
+  'unifunc' => 'content_51db4e499a1793_51872356',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51db15aa0c4458_94111468')) {function content_51db15aa0c4458_94111468($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_51db4e499a1793_51872356')) {function content_51db4e499a1793_51872356($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
@@ -72,8 +71,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
 ">
 	<head>
-		<title><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['meta_title']->value, 'htmlall', 'UTF-8');?>
-</title>
+		<title>Modarte | Girls Formal Wear</title>
 <?php if (isset($_smarty_tpl->tpl_vars['meta_description']->value)&&$_smarty_tpl->tpl_vars['meta_description']->value){?>
 		<meta name="description" content="<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['meta_description']->value, 'html', 'UTF-8');?>
 " />
@@ -163,6 +161,25 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 					<?php echo $_smarty_tpl->tpl_vars['HOOK_TOP']->value;?>
 
 				</div>
+			</div>
+
+			<!-- Modarte - Top navigation bar -->
+			<div class="md-topnav md-border-radius">
+				<ul>
+					<li><a class="md-border-radius" href="#">Home</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Girls</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Bridesmaids</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Dolls</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Accessories</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">New In</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Sale</a></li>
+				</ul>
 			</div>
 
 			<div id="columns" class="grid_9 alpha omega clearfix">
