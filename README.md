@@ -26,6 +26,20 @@ Go to the "Performances" page under the "Advanced parameters" menu to change the
 	/* /config/defines.inc.php */
 	/* Debug only */
 	define('_PS_MODE_DEV_', true);
+	
+##Remove all unwanted blocks
+
+- Modules > Modules
+- Modules > Positions
+- Install the latest font awesome pack
+	- http://fortawesome.github.io/Font-Awesome/
+- Add the font awesome reference in /classes/controller/FrontController.php
+
+		// The font awesome css
+		$this->addCSS(_THEME_CSS_DIR_.'font-awesome-ie7.min.css', 'all');
+		$this->addCSS(_THEME_CSS_DIR_.'font-awesome.min.css', 'all');
+
+- On /img, replace the favicon.ico
 
 ##Suggested development access to the admin panel
 

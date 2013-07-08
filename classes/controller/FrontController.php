@@ -728,6 +728,10 @@ class FrontControllerCore extends Controller
 		$this->addjquery();
 		$this->addjqueryPlugin('easing');
 		$this->addJS(_PS_JS_DIR_.'tools.js');
+		
+		// The font awesome css
+		$this->addCSS(_THEME_CSS_DIR_.'font-awesome-ie7.min.css', 'all');
+		$this->addCSS(_THEME_CSS_DIR_.'font-awesome.min.css', 'all');
 
 		if (Tools::isSubmit('live_edit') && Tools::getValue('ad') && Tools::getAdminToken('AdminModulesPositions'.(int)Tab::getIdFromClassName('AdminModulesPositions').(int)Tools::getValue('id_employee')))
 		{
