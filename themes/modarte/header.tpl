@@ -29,7 +29,7 @@
 <!--[if gt IE 8]> <html class="no-js ie9" lang="{$lang_iso}"> <![endif]-->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$lang_iso}">
 	<head>
-		<title>{$meta_title|escape:'htmlall':'UTF-8'}</title>
+		<title>Modarte | Girls Formal Wear</title>
 {if isset($meta_description) AND $meta_description}
 		<meta name="description" content="{$meta_description|escape:html:'UTF-8'}" />
 {/if}
@@ -81,6 +81,25 @@
 				<div id="header_right" class="grid_9 omega">
 					{$HOOK_TOP}
 				</div>
+			</div>
+
+			<!-- Modarte - Top navigation bar -->
+			<div class="md-topnav md-border-radius">
+				<ul>
+					<li><a class="md-border-radius" href="#">Home</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Girls</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Bridesmaids</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Dolls</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Accessories</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">New In</a></li>
+					<li><i class="icon-star"></i></li>
+					<li><a class="md-border-radius" href="#">Sale</a></li>
+				</ul>
 			</div>
 
 			<div id="columns" class="grid_9 alpha omega clearfix">
