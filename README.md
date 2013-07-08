@@ -29,4 +29,5 @@ Go to the "Performances" page under the "Advanced parameters" menu to change the
 ##Suggested development access to the admin panel
 
 - URL: /adminMod
-- Username/Pass: modUser
+- Username: modUser
+- Pass: modUsermodUser
