@@ -23,6 +23,7 @@ Go to the "Performances" page under the "Advanced parameters" menu to change the
 
 ##Displaying error messages
 
+	/* /config/defines.inc.php */
 	/* Debug only */
 	define('_PS_MODE_DEV_', true);
 
