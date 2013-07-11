@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-09 00:42:01
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-11 01:41:35
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:172318585651db4e497c4230-25284671%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:136223113251ddff3f6e82e3-03699855%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '796a2a70735db732c5bbbdfc50d288ae37f2c4c0' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/header.tpl',
-      1 => 1373321832,
+      1 => 1373494835,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '172318585651db4e497c4230-25284671',
+  'nocache_hash' => '136223113251ddff3f6e82e3-03699855',
   'function' => 
   array (
   ),
@@ -55,9 +55,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51db4e499a1793_51872356',
+  'unifunc' => 'content_51ddff3f926fd9_77255446',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51db4e499a1793_51872356')) {function content_51db4e499a1793_51872356($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_51ddff3f926fd9_77255446')) {function content_51ddff3f926fd9_77255446($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
@@ -158,27 +158,42 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 " <?php }?> />
 				</a>
 				<div id="header_right" class="grid_9 omega">
+					<div id="bookmarks"><a href=""><i class="icon-star"></i> Bookmark</a></div>
 					<?php echo $_smarty_tpl->tpl_vars['HOOK_TOP']->value;?>
 
 				</div>
 			</div>
 
-			<!-- Modarte - Top navigation bar -->
+		<!-- Modarte - Top navigation bar -->
 			<div class="md-topnav md-border-radius">
 				<ul>
-					<li><a class="md-border-radius" href="#">Home</a></li>
+					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/">Home</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Girls</a></li>
+					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/6-girls">Girls</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Bridesmaids</a></li>
+					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/7-bridesmaids">Bridesmaids</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Dolls</a></li>
+					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/8-dolls">Dolls</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Accessories</a></li>
+					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/9-accessories">Accessories</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">New In</a></li>
+					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/new-products">New In</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Sale</a></li>
+					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/prices-drop">Sale</a></li>
 				</ul>
 			</div>
 

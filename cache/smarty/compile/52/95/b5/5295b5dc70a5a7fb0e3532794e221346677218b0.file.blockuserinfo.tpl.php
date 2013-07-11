@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-09 00:42:00
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-11 01:41:34
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/modules/blockuserinfo/blockuserinfo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:70925396551db4e4868a501-44795858%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:177628817451ddff3eeeae09-88109386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5295b5dc70a5a7fb0e3532794e221346677218b0' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/modules/blockuserinfo/blockuserinfo.tpl',
-      1 => 1366896192,
+      1 => 1373496622,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '70925396551db4e4868a501-44795858',
+  'nocache_hash' => '177628817451ddff3eeeae09-88109386',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51db4e487f5948_82305285',
+  'unifunc' => 'content_51ddff3f123104_05380437',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51db4e487f5948_82305285')) {function content_51db4e487f5948_82305285($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_51ddff3f123104_05380437')) {function content_51ddff3f123104_05380437($_smarty_tpl) {?>
 
 <!-- Block user information module HEADER -->
 <div id="header_user">
@@ -39,8 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<?php if (!$_smarty_tpl->tpl_vars['PS_CATALOG_MODE']->value){?>
 		<li id="shopping_cart">
 			<a href="<?php echo $_smarty_tpl->tpl_vars['link']->value->getPageLink($_smarty_tpl->tpl_vars['order_process']->value,true);?>
-" title="<?php echo smartyTranslate(array('s'=>'View my shopping cart','mod'=>'blockuserinfo'),$_smarty_tpl);?>
-" rel="nofollow"><?php echo smartyTranslate(array('s'=>'Cart','mod'=>'blockuserinfo'),$_smarty_tpl);?>
+" title="<?php echo smartyTranslate(array('s'=>'View my shopping bag','mod'=>'blockuserinfo'),$_smarty_tpl);?>
+" rel="nofollow">
+			<i class="glicon-large glicon-shopping-bag"></i> <?php echo smartyTranslate(array('s'=>'Shopping Bag','mod'=>'blockuserinfo'),$_smarty_tpl);?>
 
 			<span class="ajax_cart_quantity<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value==0){?> hidden<?php }?>"><?php echo $_smarty_tpl->tpl_vars['cart_qties']->value;?>
 </span>

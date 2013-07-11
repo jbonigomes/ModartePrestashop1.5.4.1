@@ -26,14 +26,76 @@
 		{if !$content_only}
 				</div>
 
-<!-- Right -->
-				<div id="right_column" class="column grid_2 omega">
-					{$HOOK_RIGHT_COLUMN}
-				</div>
+<!-- End of columns -->
 			</div>
 
 <!-- Footer -->
 			<div id="footer" class="grid_9 alpha omega clearfix">
+
+				<div class="grid_2">
+					<h4>CATEGORIES</h4>
+					<ul>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Home</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/6-girls">Girls</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/7-bridesmaids">Bridesmaids</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/8-dolls">Dolls</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/9-accessories">Accessories</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/new-products">New In</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/prices-drop">Sale</a></li>
+					</ul>
+				</div>
+
+				<div class="grid_2">
+					<h4>INFORMATION</h4>
+					<ul>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Home</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/6-girls">Girls</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/7-bridesmaids">Bridesmaids</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/8-dolls">Dolls</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/9-accessories">Accessories</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/new-products">New In</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/prices-drop">Sale</a></li>
+					</ul>
+				</div>
+				
+				<div class="grid_2 md-less-width">
+					<h4>MY ACCOUNT</h4>
+					<ul class="bullet">
+						<li><a href="{$base_dir}{$lang_iso}/order-history">My orders</a></li>
+						<li><a href="{$base_dir}{$lang_iso}/order-slip">My credit slips</a></li>
+						<li><a href="{$base_dir}{$lang_iso}/addresses">My addresses</a></li>
+						<li><a href="{$base_dir}{$lang_iso}/identity">My personal info</a></li>
+						<li><a href="{$base_dir}{$lang_iso}/discount">My vouchers</a></li>
+						<li><a href="{$base_dir}{$lang_iso}/module/favoriteproducts/account">My favorite products</a></li>
+					</ul>
+				</div>
+
+				<div class="grid_1">
+					<h4>FOLLOW US</h4>
+					<ul>
+						<li><a href="#"><i class="icon-"></i>Facebook</a></li>
+						<li><a href="#"><i class="icon-"></i>Twitter</a></li>
+						<li><a href="#"><i class="icon-"></i>RSS</a></li>
+					</ul>
+				</div>
+
+				<div class="grid_2 md-last-grid">
+					<h4>CONTACT US</h4>
+					<ul>
+						<li><strong>Modarte</strong></li>
+						<li>
+							<p>
+								29th floor, One Canada Square<br/>
+								Canary Wharf<br/>
+								London, UK<br/>
+								E14 5DY
+							</p>
+						</li>
+						<li>Tel: +44 (0)208 000 0000</li>
+						<li>Email: <a href="mailto:modarte@hotmail.co.uk">modarte@hotmail.co.uk</a></li>
+					</ul>
+				</div>
+
 				{$HOOK_FOOTER}
 				{if $PS_ALLOW_MOBILE_DEVICE}
 					<p class="center clearBoth"><a href="{$link->getPageLink('index', true)}?mobile_theme_ok">{l s='Browse the mobile site'}</a></p>

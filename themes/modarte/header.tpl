@@ -79,26 +79,27 @@
 					<img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}" {/if} />
 				</a>
 				<div id="header_right" class="grid_9 omega">
+					<div id="bookmarks"><a href=""><i class="icon-star"></i> Bookmark</a></div>
 					{$HOOK_TOP}
 				</div>
 			</div>
 
-			<!-- Modarte - Top navigation bar -->
+		<!-- Modarte - Top navigation bar -->
 			<div class="md-topnav md-border-radius">
 				<ul>
-					<li><a class="md-border-radius" href="#">Home</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Home</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Girls</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/6-girls">Girls</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Bridesmaids</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/7-bridesmaids">Bridesmaids</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Dolls</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/8-dolls">Dolls</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Accessories</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/9-accessories">Accessories</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">New In</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/new-products">New In</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="#">Sale</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/prices-drop">Sale</a></li>
 				</ul>
 			</div>
 

@@ -39,6 +39,13 @@ Go to the "Performances" page under the "Advanced parameters" menu to change the
 		$this->addCSS(_THEME_CSS_DIR_.'font-awesome-ie7.min.css', 'all');
 		$this->addCSS(_THEME_CSS_DIR_.'font-awesome.min.css', 'all');
 
+- Install the glyphs pack
+	- https://github.com/marcoceppi/bootstrap-glyphicons
+- Add the glyphs reference in /classess/controller/FrontController.php
+
+		// The glyphs css
+		$this->addCSS(_THEME_CSS_DIR_.'bootstrap.icon-large.min.css', 'all');
+
 - On /img, replace the favicon.ico
 
 ##Suggested development access to the admin panel

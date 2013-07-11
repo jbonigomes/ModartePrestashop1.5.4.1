@@ -2124,6 +2124,75 @@ tr.subitem > td:first-child + td {
 	background-color: #222;
 }
 
+#footer > div {
+	padding: 15px 10px;
+}
+
+#footer h4 {
+	font-size: 14px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+
+.container_9 #footer .grid_2 {
+	width: 182px;
+}
+
+.container_9 #footer .grid_1 {
+	width: 120px;
+}
+
+.container_9 #footer .grid_2.md-last-grid {
+	margin-right: 0;
+	width: 160px;
+}
+
+.container_9 #footer .grid_2.md-less-width {
+	width: 155px;
+}
+
+#header_nav #shopping_cart a {
+	background: none;
+	padding: 15px;
+	vertical-align: top;
+	border: 1px solid #ccc;
+}
+
+#header_nav #shopping_cart a i {
+	margin-top: -7px;
+}
+
+#header_nav li#shopping_cart a span {
+	vertical-align: top;
+}
+
+#bookmarks {
+	float: right;
+	margin-left: 6§px;
+	padding: 2px 6px 1px 6px;
+	-moz-border-bottom-right-radius: 3px;
+	-moz-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background: none repeat scroll 0 0 #000;
+}
+
+#bookmarks a {
+	color: #ccc;
+}
+
+#bookmarks a i {
+	color: #C7A317;
+	font-size: 12px;
+}
+
+#bookmarks a:hover,
+#bookmarks a:hover i {
+	color: #fff;
+}
+
 .md-border-radius {
 	-webkit-border-top-right-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
@@ -2176,15 +2245,4 @@ tr.subitem > td:first-child + td {
 	color: #000;
 }
 
-.md-add-bookmark {
-	float: right;
-	margin: 0 6px 0 0;
-	padding: 2px 6px;
-	-moz-border-bottom-right-radius: 3px;
-	-moz-border-bottom-left-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
-	background: none repeat scroll 0 0 #000;
-}
+

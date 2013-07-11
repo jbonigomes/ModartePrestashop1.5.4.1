@@ -733,6 +733,12 @@ class FrontControllerCore extends Controller
 		$this->addCSS(_THEME_CSS_DIR_.'font-awesome-ie7.min.css', 'all');
 		$this->addCSS(_THEME_CSS_DIR_.'font-awesome.min.css', 'all');
 
+		// The glyphs css
+		$this->addCSS(_THEME_CSS_DIR_.'bootstrap.icon-large.min.css', 'all');
+
+		// The custom JS
+		$this->addJS(_THEME_JS_DIR_.'modarte.js');
+
 		if (Tools::isSubmit('live_edit') && Tools::getValue('ad') && Tools::getAdminToken('AdminModulesPositions'.(int)Tab::getIdFromClassName('AdminModulesPositions').(int)Tools::getValue('id_employee')))
 		{
 			$this->addJqueryUI('ui.sortable');
