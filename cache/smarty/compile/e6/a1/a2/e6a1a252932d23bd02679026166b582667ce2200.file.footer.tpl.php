@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-11 01:41:35
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-12 20:16:00
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:99191720851ddff3f931552-73194568%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:122051339151e055f0297a07-82776913%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e6a1a252932d23bd02679026166b582667ce2200' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl',
-      1 => 1373502652,
+      1 => 1373656424,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '99191720851ddff3f931552-73194568',
+  'nocache_hash' => '122051339151e055f0297a07-82776913',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51ddff3fa46b41_96465241',
+  'unifunc' => 'content_51e055f03be562_40758340',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51ddff3fa46b41_96465241')) {function content_51ddff3fa46b41_96465241($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_51e055f03be562_40758340')) {function content_51e055f03be562_40758340($_smarty_tpl) {?>
 
 		<?php if (!$_smarty_tpl->tpl_vars['content_only']->value){?>
 				</div>
@@ -71,25 +71,28 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<ul>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">Home</a></li>
+/">Specials</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/6-girls">Girls</a></li>
+/">New Products</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/7-bridesmaids">Bridesmaids</a></li>
+/">Top Sellers</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/8-dolls">Dolls</a></li>
+/">Our Stores</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/9-accessories">Accessories</a></li>
+/">Contact Us</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/new-products">New In</a></li>
+/">Terms &amp; Conditions</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/prices-drop">Sale</a></li>
+/">Site Map</a></li>
+						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
+/">Powered by Backbone Labs</a></li>
 					</ul>
 				</div>
 				
@@ -120,9 +123,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				<div class="grid_1">
 					<h4>FOLLOW US</h4>
 					<ul>
-						<li><a href="#"><i class="icon-"></i>Facebook</a></li>
-						<li><a href="#"><i class="icon-"></i>Twitter</a></li>
-						<li><a href="#"><i class="icon-"></i>RSS</a></li>
+						<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+						<li><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
+						<li><a href="#"><i class="icon-instagram"></i>Instagram</a></li>
+						<li><a href="#"><i class="icon-rss"></i>RSS</a></li>
 					</ul>
 				</div>
 

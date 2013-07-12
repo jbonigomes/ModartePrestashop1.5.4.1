@@ -48,13 +48,14 @@
 				<div class="grid_2">
 					<h4>INFORMATION</h4>
 					<ul>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Home</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/6-girls">Girls</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/7-bridesmaids">Bridesmaids</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/8-dolls">Dolls</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/9-accessories">Accessories</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/new-products">New In</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/prices-drop">Sale</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Specials</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">New Products</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Top Sellers</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Our Stores</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Contact Us</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Terms &amp; Conditions</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Site Map</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Powered by Backbone Labs</a></li>
 					</ul>
 				</div>
 				
@@ -73,9 +74,10 @@
 				<div class="grid_1">
 					<h4>FOLLOW US</h4>
 					<ul>
-						<li><a href="#"><i class="icon-"></i>Facebook</a></li>
-						<li><a href="#"><i class="icon-"></i>Twitter</a></li>
-						<li><a href="#"><i class="icon-"></i>RSS</a></li>
+						<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+						<li><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
+						<li><a href="#"><i class="icon-instagram"></i>Instagram</a></li>
+						<li><a href="#"><i class="icon-rss"></i>RSS</a></li>
 					</ul>
 				</div>
 

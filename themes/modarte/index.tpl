@@ -23,4 +23,4 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-{$HOOK_HOME}
+<img src="{$base_dir}img/profile.png" alt="Profile Image" />

@@ -1,8 +1,8 @@
 <?php
 define('_DB_SERVER_', 'localhost');
 define('_DB_NAME_', 'ModartePrestashop1.5.4.1');
-define('_DB_USER_', 'root');
-define('_DB_PASSWD_', 'root');
+define('_DB_USER_', 'odell');
+define('_DB_PASSWD_', 'ceZYGtVw');
 define('_DB_PREFIX_', '');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');

@@ -1,5 +1,5 @@
 /* ##################################################################################################
-	PRESTASHOP CSS
+	Modarte CSS
 ################################################################################################## */
 
 /* ****************************************************************************
@@ -2116,6 +2116,27 @@ tr.subitem > td:first-child + td {
 /* MODARTE SPECIFIC STYLES
 /*****************************************************/
 
+body#index #columns {
+	display: table;
+	caption-side: top;
+}
+
+body#index #columns #left_column {
+	display: block;
+	float: none;
+	clear: both;
+	margin: 15px auto;
+}
+
+body#index #columns #center_column {
+	display: table-caption;
+	width: 100%;
+	margin-right: 0;
+	clear: both;
+	float: none;
+	text-align: center;
+}
+
 #header {
 	padding-bottom: 5px;
 }
@@ -2132,6 +2153,18 @@ tr.subitem > td:first-child + td {
 	font-size: 14px;
 	padding-bottom: 10px;
 	font-weight: normal;
+}
+
+#footer i {
+	margin-right: 10px;
+	font-size: 15px;
+	width: 14px;
+	text-align: center;
+	display: inline-block;
+}
+
+#footer a:hover i {
+	text-decoration: none;
 }
 
 .container_9 #footer .grid_2 {
@@ -2166,10 +2199,10 @@ tr.subitem > td:first-child + td {
 	vertical-align: top;
 }
 
-#bookmarks {
+div#bookmarks {
 	float: right;
-	margin-left: 6§px;
-	padding: 2px 6px 1px 6px;
+	margin-left: 6px;
+	padding: 1px 6px 1px 6px;
 	-moz-border-bottom-right-radius: 3px;
 	-moz-border-bottom-left-radius: 3px;
 	-webkit-border-bottom-right-radius: 3px;
@@ -2179,17 +2212,17 @@ tr.subitem > td:first-child + td {
 	background: none repeat scroll 0 0 #000;
 }
 
-#bookmarks a {
+div#bookmarks a {
 	color: #ccc;
 }
 
-#bookmarks a i {
+div#bookmarks a i {
 	color: #C7A317;
 	font-size: 12px;
 }
 
-#bookmarks a:hover,
-#bookmarks a:hover i {
+div#bookmarks a:hover,
+div#bookmarks a:hover i {
 	color: #fff;
 }
 
@@ -2226,7 +2259,7 @@ tr.subitem > td:first-child + td {
 .md-topnav ul li i {
 	color: #fff;
 	display: block;
-	margin: 12px 33px;
+	margin: 7px 33px;
 	font-size: 9px;
 }
 
@@ -2237,12 +2270,10 @@ tr.subitem > td:first-child + td {
 	font-size: 16px;
 	text-decoration: none;
 	display: block;
-	padding: 10px;
+	padding: 5px 10px;
 }
 
 .md-topnav ul li a:hover {
 	background-color: #fff;
 	color: #000;
 }
-
-
