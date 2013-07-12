@@ -2167,6 +2167,12 @@ body#index #columns #center_column {
 	text-decoration: none;
 }
 
+#search_block_top .button {
+	background-image: none;
+	background: #222;
+	border-radius: none;
+}
+
 .container_9 #footer .grid_2 {
 	width: 182px;
 }
