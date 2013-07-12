@@ -1,5 +1,5 @@
 <?php
-define('_DB_SERVER_', 'localhost');
+define('_DB_SERVER_', 'tunnel.pagodabox.com:3306');
 define('_DB_NAME_', 'ModartePrestashop1.5.4.1');
 define('_DB_USER_', 'odell');
 define('_DB_PASSWD_', 'ceZYGtVw');
