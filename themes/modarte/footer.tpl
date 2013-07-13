@@ -48,14 +48,12 @@
 				<div class="grid_2">
 					<h4>INFORMATION</h4>
 					<ul>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Specials</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">New Products</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Top Sellers</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Our Stores</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Contact Us</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Terms &amp; Conditions</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Site Map</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/">Powered by Backbone Labs</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/contact-us">Contact Us</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/terms-and-conditions-of-use">Terms &amp; Conditions</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/delivery">Delivery</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/legal-notice">Privacy Policy</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/about-us">About Us</a></li>
+						<li><a class="md-border-radius" href="#">Powered by Backbone Labs</a></li>
 					</ul>
 				</div>
 				

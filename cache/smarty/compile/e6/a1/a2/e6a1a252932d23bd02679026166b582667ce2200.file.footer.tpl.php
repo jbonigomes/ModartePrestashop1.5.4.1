@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-13 01:18:06
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-13 01:39:57
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:136120768951e09cbee80af7-60632188%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:105126784051e0a1ddea56a4-62452297%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e6a1a252932d23bd02679026166b582667ce2200' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl',
-      1 => 1373656424,
+      1 => 1373675439,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '136120768951e09cbee80af7-60632188',
+  'nocache_hash' => '105126784051e0a1ddea56a4-62452297',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e09cbf0cdfa8_24179240',
+  'unifunc' => 'content_51e0a1de0b8386_41875518',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e09cbf0cdfa8_24179240')) {function content_51e09cbf0cdfa8_24179240($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_51e0a1de0b8386_41875518')) {function content_51e0a1de0b8386_41875518($_smarty_tpl) {?>
 
 		<?php if (!$_smarty_tpl->tpl_vars['content_only']->value){?>
 				</div>
@@ -71,25 +71,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					<ul>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">Specials</a></li>
+/contact-us">Contact Us</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">New Products</a></li>
+/terms-and-conditions-of-use">Terms &amp; Conditions</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">Top Sellers</a></li>
+/delivery">Delivery</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">Our Stores</a></li>
+/legal-notice">Privacy Policy</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">Contact Us</a></li>
-						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
-<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">Terms &amp; Conditions</a></li>
-						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
-<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/">Site Map</a></li>
+/about-us">About Us</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
 /">Powered by Backbone Labs</a></li>
