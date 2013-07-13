@@ -1,13 +1,13 @@
 <?php
-// define('_DB_SERVER_', 'localhost');
-// define('_DB_NAME_', 'ModartePrestashop1.5.4.1');
-// define('_DB_USER_', 'root');
-// define('_DB_PASSWD_', 'root');
+define('_DB_SERVER_', 'localhost');
+define('_DB_NAME_', 'ModartePrestashop1.5.4.1');
+define('_DB_USER_', 'root');
+define('_DB_PASSWD_', 'root');
 
-define('_DB_SERVER_', $_SERVER["DB1_HOST"] . ':' . $_SERVER["DB1_PORT"]);
-define('_DB_NAME_', $_SERVER["DB1_NAME"]);
-define('_DB_USER_', $_SERVER["DB1_USER"]);
-define('_DB_PASSWD_', $_SERVER["DB1_PASS"]);
+// define('_DB_SERVER_', $_SERVER["DB1_HOST"] . ':' . $_SERVER["DB1_PORT"]);
+// define('_DB_NAME_', $_SERVER["DB1_NAME"]);
+// define('_DB_USER_', $_SERVER["DB1_USER"]);
+// define('_DB_PASSWD_', $_SERVER["DB1_PASS"]);
 
 define('_DB_PREFIX_', '');
 define('_MYSQL_ENGINE_', 'InnoDB');
