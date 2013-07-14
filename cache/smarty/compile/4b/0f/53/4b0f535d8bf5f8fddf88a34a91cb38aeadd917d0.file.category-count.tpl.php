@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-12 21:59:03
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-14 17:03:57
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/category-count.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:193538974651e06e173f2dc8-50819202%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:92710196751e2cbed9c6809-94127880%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '193538974651e06e173f2dc8-50819202',
+  'nocache_hash' => '92710196751e2cbed9c6809-94127880',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e06e1743c035_99454234',
+  'unifunc' => 'content_51e2cbeda127e8_73080329',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e06e1743c035_99454234')) {function content_51e06e1743c035_99454234($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_51e2cbeda127e8_73080329')) {function content_51e2cbeda127e8_73080329($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['category']->value->id==1||$_smarty_tpl->tpl_vars['nb_products']->value==0){?>
 	<?php echo smartyTranslate(array('s'=>'There are no products in  this category'),$_smarty_tpl);?>
 

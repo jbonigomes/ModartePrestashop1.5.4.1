@@ -28,18 +28,6 @@
 
 {if isset($category)}
 	{if $category->id AND $category->active}
-		<h1>
-			{strip}
-				{$category->name|escape:'htmlall':'UTF-8'}
-				{if isset($categoryNameComplement)}
-					{$categoryNameComplement|escape:'htmlall':'UTF-8'}
-				{/if}
-			{/strip}
-		</h1>
-		
-		<div class="resumecat category-product-count">
-			{include file="$tpl_dir./category-count.tpl"}
-		</div>
 		
 		{if $scenes || $category->description || $category->id_image}
 		<div class="content_scene_cat">

@@ -18,4 +18,38 @@ $(document).ready(function()
 			window.location.reload();
 		}
 	});
+
+	$('#launchDeliveryModal').click(function()
+	{
+		if($('#deliveryModal').is(':visible'))
+		{
+			$('#deliveryModal').css('display', 'none');
+		}
+		else
+		{
+			$('#deliveryModal').css('display', 'block');
+		}
+	});
+
+	$('#launchSizeModal').click(function()
+	{
+		if($('#sizeModal').is(':visible'))
+		{
+			$('#sizeModal').css('display', 'none');
+		}
+		else
+		{
+			$('#sizeModal').css('display', 'block');
+		}
+	});
+
+	$('#deliveryModal .icon-remove-sign').click(function()
+	{
+		$('#deliveryModal').css('display', 'none');
+	});
+
+	$('#sizeModal .icon-remove-sign').click(function()
+	{
+		$('#sizeModal').css('display', 'none');
+	});
 });
