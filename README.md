@@ -26,9 +26,10 @@ Go to the "Performances" page under the "Advanced parameters" menu to change the
 	/* /config/defines.inc.php */
 	/* Debug only */
 	define('_PS_MODE_DEV_', true);
-	
+
 ##Remove all unwanted blocks
 
+- Set the default lang to GB on Localization > Localization
 - Modules > Modules
 - Modules > Positions
 - Install the latest font awesome pack
@@ -47,6 +48,14 @@ Go to the "Performances" page under the "Advanced parameters" menu to change the
 		$this->addCSS(_THEME_CSS_DIR_.'bootstrap.icon-large.min.css', 'all');
 
 - On /img, replace the favicon.ico
+- On /img, add the profile.png
+- Add the theme folder 'modarte' to the theme dir
+- Don't forget to set the new theme Preferences > Themes
+- Install layered navigation
+- Create the categories, girls, bridesmaides, dolls and accessories
+- Disable product compare PREFERENCES > PRODUCTS > Max items in the comparator
+- Enable jqZoom on preferences > products
+- Copy across the blockuserinfo module
 
 ##Images size
 

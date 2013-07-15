@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-14 21:46:26
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-15 22:40:42
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/contact-form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:181453215151e30e22820da0-72635760%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:20553721651e46c5ad261d8-41228161%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '075958b988bb4b13445c7eb3d25d3e284e38dde9' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/contact-form.tpl',
-      1 => 1366896192,
+      1 => 1373924209,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '181453215151e30e22820da0-72635760',
+  'nocache_hash' => '20553721651e46c5ad261d8-41228161',
   'function' => 
   array (
   ),
@@ -39,9 +39,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e30e22ba2f53_35870379',
+  'unifunc' => 'content_51e46c5b130361_81553776',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e30e22ba2f53_35870379')) {function content_51e30e22ba2f53_35870379($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_51e46c5b130361_81553776')) {function content_51e46c5b130361_81553776($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
 ?>
 
 <?php $_smarty_tpl->_capture_stack[0][] = array('path', null, null); ob_start(); ?><?php echo smartyTranslate(array('s'=>'Contact'),$_smarty_tpl);?>
@@ -116,7 +116,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['contact']->key => $_smarty_tpl->tpl_v
 $_smarty_tpl->tpl_vars['contact']->_loop = true;
 ?>
 					<option value="<?php echo intval($_smarty_tpl->tpl_vars['contact']->value['id_contact']);?>
-" <?php if (isset($_POST['id_contact'])&&$_POST['id_contact']==$_smarty_tpl->tpl_vars['contact']->value['id_contact']){?>selected="selected"<?php }?>><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['contact']->value['name'], 'htmlall', 'UTF-8');?>
+" <?php if (2==$_smarty_tpl->tpl_vars['contact']->value['id_contact']){?>selected="selected"<?php }?>><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['contact']->value['name'], 'htmlall', 'UTF-8');?>
 </option>
 				<?php } ?>
 				</select>

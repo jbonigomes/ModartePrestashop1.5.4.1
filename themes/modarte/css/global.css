@@ -2401,6 +2401,98 @@ ul#product_list li i {
 	width: 480px;
 }
 
+#contact fieldset {
+	border: 1px solid #222 !important;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+
+#contact fieldset h3 {
+	background: #222;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;	
+}
+
+#contact fieldset p.select {
+	display: none;
+}
+
+#contact fieldset input.button_large {
+	padding: 5px 7px;
+	border: none;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+
+	-webkit-border-top-right-radius: 5px !important;
+	-webkit-border-bottom-left-radius: 5px !important;
+	-moz-border-radius-topright: 5px !important;
+	-moz-border-radius-bottomleft: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+
+	color: #fff;
+	background: #222;
+}
+
+#order .grid_5,
+#authentication .grid_5 {
+	margin: 0 auto;
+	float: none;
+}
+
+#order #order_step,
+#authentication #order_step {
+	margin: 15px auto;
+}
+
+#authentication form#create-account_form {
+	margin-left: 85px;
+	width: 400px;
+}
+
+#authentication form#login_form {
+	width: 400px;
+}
+
+#authentication .grid_9 {
+	padding: bottom: 20px;
+	width: 100%;
+}
+
+#order a.exclusive,
+#order a.button_large {
+	padding: 5px 7px;
+	border: none;
+	-moz-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+
+	-webkit-border-top-right-radius: 5px !important;
+	-webkit-border-bottom-left-radius: 5px !important;
+	-moz-border-radius-topright: 5px !important;
+	-moz-border-radius-bottomleft: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+
+	color: #fff;
+	background: #222;
+}
+
+#order a.button_large {
+	background: #C7A317;
+}
+
+#order table.std, table.table_block {
+	border: solid 1px #222;
+}
+
+#order table#cart_summary th {
+	background: #222;
+}
+
 .idTabs #more_info_tab_more_info.selected {
 	background: #222;
 	color: #fff;
