@@ -400,7 +400,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 					<img src="{$img_dir}onsale_{$lang_iso}.gif" alt="{l s='On sale'}" class="on_sale_img"/>
 					<span class="on_sale">{l s='On sale!'}</span>
 				{elseif $product->specificPrice AND $product->specificPrice.reduction AND $productPriceWithoutReduction > $productPrice}
-					<span class="discount">{l s='Reduced price!'}</span>
+					<span class="discount"><i class="icon-tag"></i> {l s='Sale!'}</span>
 				{/if}
 				{if $priceDisplay == 2}
 					<br />

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-14 21:51:01
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-16 23:46:02
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:20807249151e30f35bf7825-83135209%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:127159111851e5cd2a969c86-90073827%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd80e5704f03a925980fe58c8cf26a3162f4162da' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/product.tpl',
-      1 => 1373834518,
+      1 => 1374000297,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '20807249151e30f35bf7825-83135209',
+  'nocache_hash' => '127159111851e5cd2a969c86-90073827',
   'function' => 
   array (
   ),
@@ -111,9 +111,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e30f374df5a4_57456362',
+  'unifunc' => 'content_51e5cd2c26f085_44312243',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e30f374df5a4_57456362')) {function content_51e30f374df5a4_57456362($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_51e5cd2c26f085_44312243')) {function content_51e5cd2c26f085_44312243($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
 if (!is_callable('smarty_modifier_date_format')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/function.math.php';
 if (!is_callable('smarty_function_counter')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/function.counter.php';
@@ -728,7 +728,7 @@ onsale_<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
 					<span class="on_sale"><?php echo smartyTranslate(array('s'=>'On sale!'),$_smarty_tpl);?>
 </span>
 				<?php }elseif($_smarty_tpl->tpl_vars['product']->value->specificPrice&&$_smarty_tpl->tpl_vars['product']->value->specificPrice['reduction']&&$_smarty_tpl->tpl_vars['productPriceWithoutReduction']->value>$_smarty_tpl->tpl_vars['productPrice']->value){?>
-					<span class="discount"><?php echo smartyTranslate(array('s'=>'Reduced price!'),$_smarty_tpl);?>
+					<span class="discount"><i class="icon-tag"></i> <?php echo smartyTranslate(array('s'=>'Sale!'),$_smarty_tpl);?>
 </span>
 				<?php }?>
 				<?php if ($_smarty_tpl->tpl_vars['priceDisplay']->value==2){?>

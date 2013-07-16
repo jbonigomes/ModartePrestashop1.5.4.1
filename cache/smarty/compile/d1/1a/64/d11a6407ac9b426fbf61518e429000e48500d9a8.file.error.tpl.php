@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-14 15:20:38
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-16 21:04:37
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/modules/paypal/views/templates/front/error.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:846736551e2b3b6520b28-75961695%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:25796800951e5a7559137e6-39028072%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '846736551e2b3b6520b28-75961695',
+  'nocache_hash' => '25796800951e5a7559137e6-39028072',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e2b3b65e8e64_73016497',
+  'unifunc' => 'content_51e5a7559df656_92834496',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e2b3b65e8e64_73016497')) {function content_51e2b3b65e8e64_73016497($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_51e5a7559df656_92834496')) {function content_51e5a7559df656_92834496($_smarty_tpl) {?>
 
 <?php if (@constant('_PS_VERSION_')<1.5&&isset($_smarty_tpl->tpl_vars['use_mobile']->value)&&$_smarty_tpl->tpl_vars['use_mobile']->value){?>
 	<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./modules/paypal/views/templates/front/error.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>

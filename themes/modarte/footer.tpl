@@ -65,7 +65,6 @@
 						<li><a href="{$base_dir}{$lang_iso}/addresses">My addresses</a></li>
 						<li><a href="{$base_dir}{$lang_iso}/identity">My personal info</a></li>
 						<li><a href="{$base_dir}{$lang_iso}/discount">My vouchers</a></li>
-						<li><a href="{$base_dir}{$lang_iso}/module/favoriteproducts/account">My favorite products</a></li>
 					</ul>
 				</div>
 

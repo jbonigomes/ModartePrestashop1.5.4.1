@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-15 23:10:02
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-16 23:58:04
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:28611174051e4733af254c7-74397452%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:119301350751e5cffc7356b8-97893628%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e6a1a252932d23bd02679026166b582667ce2200' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl',
-      1 => 1373925652,
+      1 => 1374002888,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '28611174051e4733af254c7-74397452',
+  'nocache_hash' => '119301350751e5cffc7356b8-97893628',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e4733b1260a7_93045194',
+  'unifunc' => 'content_51e5cffc8613f7_97866102',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e4733b1260a7_93045194')) {function content_51e4733b1260a7_93045194($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_51e5cffc8613f7_97866102')) {function content_51e5cffc8613f7_97866102($_smarty_tpl) {?>
 
 		<?php if (!$_smarty_tpl->tpl_vars['content_only']->value){?>
 				</div>
@@ -106,9 +106,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
 /discount">My vouchers</a></li>
-						<li><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
-<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/module/favoriteproducts/account">My favorite products</a></li>
 					</ul>
 				</div>
 

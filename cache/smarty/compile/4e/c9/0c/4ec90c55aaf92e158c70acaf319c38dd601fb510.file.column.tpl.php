@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-15 23:10:01
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-16 23:58:02
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/modules/paypal/views/templates/hook/column.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:53969231951e47339bcdcf8-01608551%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:133480413551e5cffac19674-02339918%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '53969231951e47339bcdcf8-01608551',
+  'nocache_hash' => '133480413551e5cffac19674-02339918',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e47339be3f21_65285467',
+  'unifunc' => 'content_51e5cffac2f668_34147477',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e47339be3f21_65285467')) {function content_51e47339be3f21_65285467($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_51e5cffac2f668_34147477')) {function content_51e5cffac2f668_34147477($_smarty_tpl) {?>
 
 <div id="paypal-column-block">
 	<p><a href="<?php echo $_smarty_tpl->tpl_vars['base_dir_ssl']->value;?>

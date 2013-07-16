@@ -2160,7 +2160,8 @@ ul#product_list .left_block {
 }
 
 ul#product_list li .center_block {
-	float: non;
+	position: relative;
+	float: none;
 	padding: 0;
 	width: 100%;
 	border-right: none;
@@ -2182,6 +2183,17 @@ ul#product_list .center_block a {
 #product_list a.product_img_link img {
 	width: 100%;
 	height: auto;
+}
+
+#product_list li .discount {
+	right: auto !important;
+	left: 0;
+	background: none !important;
+	color: #900 !important;
+}
+
+#product_list li .discount i {
+	font-size: 24px !important;
 }
 
 ul#product_list li {
@@ -2455,6 +2467,7 @@ ul#product_list li i {
 
 #authentication form#login_form {
 	width: 400px;
+	margin-bottom: 30px;
 }
 
 #authentication .grid_9 {
@@ -2552,6 +2565,7 @@ ul#product_list li i {
 div#bookmarks {
 	float: right;
 	margin-left: 6px;
+	margin-right: 391px;
 	padding: 1px 6px 1px 6px;
 	-moz-border-bottom-right-radius: 3px;
 	-moz-border-bottom-left-radius: 3px;
@@ -2574,6 +2588,43 @@ div#bookmarks a i {
 div#bookmarks a:hover,
 div#bookmarks a:hover i {
 	color: #fff;
+}
+
+#bookmarks,
+#languages_block_top,
+#currencies_block_top {
+	display: block;
+	margin-top: 10px !important;
+}
+
+form.std fieldset,
+#account-creation_form fieldset,
+fieldset.account_creation {
+	border: 1px solid #222 !important;
+}
+
+#address #center_column.grid_5 {
+	width: 100%;
+}
+
+#create-account_form h3,
+#authentication #login_form h3,
+#account-creation_form h3,
+#add_address h3 {
+	border-bottom: none !important;
+	background: #222 !important;
+}
+
+#image-block {
+	border: 1px solid #cdcdcd;
+}
+
+span.layered_close {
+	display: none;
+}
+
+p.title_block.md-border-radius {
+	background: #222 !important;
 }
 
 .md-border-radius {

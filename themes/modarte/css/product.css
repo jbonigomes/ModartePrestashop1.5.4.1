@@ -14,10 +14,6 @@
 	position:relative;
 }
 
-#pb-right-column #image-block img {
-	border:1px solid #cdcdcd;
-}
-
 #pb-right-column #image-block #view_full_size {
 	display:block;
 	cursor:pointer;

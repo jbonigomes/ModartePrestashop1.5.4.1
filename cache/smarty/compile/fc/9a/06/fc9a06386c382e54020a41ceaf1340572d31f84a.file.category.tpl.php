@@ -1,23 +1,24 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-15 22:28:22
+<?php /* Smarty version Smarty-3.1.13, created on 2013-07-16 23:58:02
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/category.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:70657063051e469762dc641-49329357%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:36877944851e5cffad11176-42801490%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'fc9a06386c382e54020a41ceaf1340572d31f84a' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/category.tpl',
-      1 => 1373818416,
+      1 => 1374014687,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '70657063051e469762dc641-49329357',
+  'nocache_hash' => '36877944851e5cffad11176-42801490',
   'function' => 
   array (
   ),
   'variables' => 
   array (
     'category' => 0,
+    'categoryNameComplement' => 0,
     'scenes' => 0,
     'link' => 0,
     'categorySize' => 0,
@@ -29,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e4697650c4c7_07507822',
+  'unifunc' => 'content_51e5cffb0274a8_27810385',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e4697650c4c7_07507822')) {function content_51e4697650c4c7_07507822($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_51e5cffb0274a8_27810385')) {function content_51e5cffb0274a8_27810385($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
 ?>
 
 <?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./breadcrumb.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
@@ -41,6 +42,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 <?php if (isset($_smarty_tpl->tpl_vars['category']->value)){?>
 	<?php if ($_smarty_tpl->tpl_vars['category']->value->id&&$_smarty_tpl->tpl_vars['category']->value->active){?>
+
+		<h1>
+			<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['category']->value->name, 'htmlall', 'UTF-8');?>
+ <?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['categoryNameComplement']->value, 'htmlall', 'UTF-8');?>
+<span class="category-product-count"><?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['tpl_dir']->value)."./category-count.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+</span>
+		</h1>
 		
 		<?php if ($_smarty_tpl->tpl_vars['scenes']->value||$_smarty_tpl->tpl_vars['category']->value->description||$_smarty_tpl->tpl_vars['category']->value->id_image){?>
 		<div class="content_scene_cat">
