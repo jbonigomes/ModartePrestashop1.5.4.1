@@ -2627,6 +2627,14 @@ p.title_block.md-border-radius {
 	background: #222 !important;
 }
 
+.category-product-count {
+	display: none;
+}
+
+#category h1 {
+	display: none;
+}
+
 .md-border-radius {
 	-webkit-border-top-right-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
