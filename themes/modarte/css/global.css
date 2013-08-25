@@ -926,6 +926,8 @@ table#cart_summary .gift-icon {
 	background: #0088CC;
 	line-height: 20px;
 	padding: 2px 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
 
@@ -1592,6 +1594,8 @@ ul#manufacturers_list li .right_side {float:right;}
 
 .description_box {
 	border: 1px solid #CCCCCC;
+	-moz-border-radius: 3px 3px 3px;
+	-webkit-border-radius: 3px 3px 3px;
 	border-radius: 3px 3px 3px 3px;
 	box-shadow: 0 1px 1px #E2E2E2;
 	padding: 5px;
@@ -2691,4 +2695,15 @@ p.title_block.md-border-radius {
 #header_logo img {
 	width: 100%;
 	height: auto;
+}
+
+#search_block_top {
+	right: 33% !important;
+}
+
+/* The newsletter in the footer */
+html body #footer #newsletter_block_left {
+	width: 200px;
+	float: right;
+
 }

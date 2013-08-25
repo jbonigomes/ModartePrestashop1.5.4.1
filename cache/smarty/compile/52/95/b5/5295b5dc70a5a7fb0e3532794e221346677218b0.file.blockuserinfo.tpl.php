@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-08-17 22:05:57
+<?php /* Smarty version Smarty-3.1.13, created on 2013-08-25 12:44:16
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/modules/blockuserinfo/blockuserinfo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:263102501520fe5b5148874-03939010%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3921378985219ee108efef9-69418828%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '263102501520fe5b5148874-03939010',
+  'nocache_hash' => '3921378985219ee108efef9-69418828',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_520fe5b52dc6d3_77075223',
+  'unifunc' => 'content_5219ee10a63791_02167945',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_520fe5b52dc6d3_77075223')) {function content_520fe5b52dc6d3_77075223($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5219ee10a63791_02167945')) {function content_5219ee10a63791_02167945($_smarty_tpl) {?>
 
 <!-- Block user information module HEADER -->
 <div id="header_user">

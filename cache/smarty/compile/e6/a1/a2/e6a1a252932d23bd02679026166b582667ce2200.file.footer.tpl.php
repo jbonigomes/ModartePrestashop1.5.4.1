@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-08-17 22:06:01
+<?php /* Smarty version Smarty-3.1.13, created on 2013-08-25 12:44:18
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:444928345520fe5b9e69d68-18342075%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10152686165219ee12958cb1-44224509%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'e6a1a252932d23bd02679026166b582667ce2200' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/footer.tpl',
-      1 => 1374002888,
+      1 => 1377429843,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '444928345520fe5b9e69d68-18342075',
+  'nocache_hash' => '10152686165219ee12958cb1-44224509',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_520fe5ba035107_04650881',
+  'unifunc' => 'content_5219ee12a4d950_05997986',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_520fe5ba035107_04650881')) {function content_520fe5ba035107_04650881($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5219ee12a4d950_05997986')) {function content_5219ee12a4d950_05997986($_smarty_tpl) {?>
 
 		<?php if (!$_smarty_tpl->tpl_vars['content_only']->value){?>
 				</div>
@@ -77,7 +77,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /content/3-terms-and-conditions-of-use">Terms &amp; Conditions</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/content/1-delivery">Delivery</a></li>
+/content/1-delivery">Delivery &amp; Returns</a></li>
 						<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
 /content/2-legal-notice">Privacy Policy</a></li>

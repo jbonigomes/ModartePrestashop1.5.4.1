@@ -222,7 +222,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 		<h1>{$product->name|escape:'htmlall':'UTF-8'}</h1>
 
 		<!-- Button to trigger modal -->
-		<a href="#" id="launchDeliveryModal" class="md-border-radius" role="button" class="btn" data-toggle="modal"><i class="icon-truck"></i> Delivery Index</a>
+		<a href="#" id="launchDeliveryModal" class="md-border-radius" role="button" class="btn" data-toggle="modal"><i class="icon-truck"></i> Delivery &amp; Returns</a>
 		<!-- Modal -->
 		<div id="deliveryModal" tabindex="-1">
 			<div class="modal-body">
@@ -237,7 +237,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 		<div id="sizeModal" tabindex="-1">
 			<div class="modal-body">
 				<i class="icon-remove-sign"></i>
-				<p>Some size table index!!</p>
+				<p>The measures of this product can be found in its description.</p>
 			</div>
 		</div>
 

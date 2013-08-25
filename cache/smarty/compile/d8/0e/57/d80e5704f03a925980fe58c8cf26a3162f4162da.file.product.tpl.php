@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-07-17 00:34:43
+<?php /* Smarty version Smarty-3.1.13, created on 2013-08-25 12:44:16
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:169911513951e5d8933e4b11-29927276%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9523993565219ee10c0f616-48707255%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd80e5704f03a925980fe58c8cf26a3162f4162da' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/product.tpl',
-      1 => 1374000297,
+      1 => 1377429181,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '169911513951e5d8933e4b11-29927276',
+  'nocache_hash' => '9523993565219ee10c0f616-48707255',
   'function' => 
   array (
   ),
@@ -111,9 +111,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51e5d894c630c9_39325954',
+  'unifunc' => 'content_5219ee125373e2_09497390',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51e5d894c630c9_39325954')) {function content_51e5d894c630c9_39325954($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_5219ee125373e2_09497390')) {function content_5219ee125373e2_09497390($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
 if (!is_callable('smarty_modifier_date_format')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.date_format.php';
 if (!is_callable('smarty_function_math')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/function.math.php';
 if (!is_callable('smarty_function_counter')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/function.counter.php';
@@ -481,7 +481,7 @@ icon/cancel_11x13.gif" alt="<?php echo smartyTranslate(array('s'=>'Cancel'),$_sm
 </h1>
 
 		<!-- Button to trigger modal -->
-		<a href="#" id="launchDeliveryModal" class="md-border-radius" role="button" class="btn" data-toggle="modal"><i class="icon-truck"></i> Delivery Index</a>
+		<a href="#" id="launchDeliveryModal" class="md-border-radius" role="button" class="btn" data-toggle="modal"><i class="icon-truck"></i> Delivery &amp; Returns</a>
 		<!-- Modal -->
 		<div id="deliveryModal" tabindex="-1">
 			<div class="modal-body">
@@ -496,7 +496,7 @@ icon/cancel_11x13.gif" alt="<?php echo smartyTranslate(array('s'=>'Cancel'),$_sm
 		<div id="sizeModal" tabindex="-1">
 			<div class="modal-body">
 				<i class="icon-remove-sign"></i>
-				<p>Some size table index!!</p>
+				<p>The measures of this product can be found in its description.</p>
 			</div>
 		</div>
 
