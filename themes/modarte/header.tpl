@@ -91,7 +91,7 @@
 					<li><i class="icon-star"></i></li>
 					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/6-girls">Girls</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/7-bridesmaids">Bridesmaids</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/7-bridesmaids">Flower girls</a></li>
 					<li><i class="icon-star"></i></li>
 					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/8-dolls">Dolls</a></li>
 					<li><i class="icon-star"></i></li>
