@@ -237,7 +237,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 		<div id="sizeModal" tabindex="-1">
 			<div class="modal-body">
 				<i class="icon-remove-sign"></i>
-				<p>The measures of this product can be found in its description.</p>
+				<p>The measures and approximate age of this product can be found in its description.</p>
 			</div>
 		</div>
 
