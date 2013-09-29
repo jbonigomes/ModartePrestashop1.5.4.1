@@ -2703,7 +2703,10 @@ p.title_block.md-border-radius {
 
 /* The newsletter in the footer */
 html body #footer #newsletter_block_left {
-	width: 200px;
+	width: 186px;
 	float: right;
+}
 
+html body #footer div#newsletter_block_left {
+	padding: 15px 0 15px 2px;
 }
