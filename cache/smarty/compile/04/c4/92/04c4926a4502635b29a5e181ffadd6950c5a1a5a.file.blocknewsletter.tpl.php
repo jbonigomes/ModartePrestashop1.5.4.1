@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-09-29 14:37:30
+<?php /* Smarty version Smarty-3.1.13, created on 2013-09-29 14:44:07
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/modules/blocknewsletter/blocknewsletter.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:61595277752482d1a8dfba3-10734786%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:59368393952482ea73c1752-46289720%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '61595277752482d1a8dfba3-10734786',
+  'nocache_hash' => '59368393952482ea73c1752-46289720',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_52482d1a9563b9_96921949',
+  'unifunc' => 'content_52482ea7432665_72750035',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_52482d1a9563b9_96921949')) {function content_52482d1a9563b9_96921949($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_52482ea7432665_72750035')) {function content_52482ea7432665_72750035($_smarty_tpl) {?>
 
 <!-- Block Newsletter module-->
 <div id="newsletter_block_left" class="block">

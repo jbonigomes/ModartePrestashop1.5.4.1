@@ -2724,5 +2724,5 @@ html body #footer div#newsletter_block_left {
 }
 
 #newsletter_block_left input.inputNew {
-	width: 145px;
+	width: 145px !important;
 }
