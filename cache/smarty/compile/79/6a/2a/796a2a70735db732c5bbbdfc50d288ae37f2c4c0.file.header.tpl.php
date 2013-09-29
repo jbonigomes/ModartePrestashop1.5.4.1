@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-09-18 20:02:42
+<?php /* Smarty version Smarty-3.1.13, created on 2013-09-29 14:37:30
          compiled from "/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6175718715239f8d267f0d5-78507029%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:64274892652482d1a9f2050-54148924%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '796a2a70735db732c5bbbdfc50d288ae37f2c4c0' => 
     array (
       0 => '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/themes/modarte/header.tpl',
-      1 => 1373494835,
+      1 => 1379532117,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6175718715239f8d267f0d5-78507029',
+  'nocache_hash' => '64274892652482d1a9f2050-54148924',
   'function' => 
   array (
   ),
@@ -55,9 +55,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_5239f8d28ea740_35894794',
+  'unifunc' => 'content_52482d1ac429f8_08877583',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5239f8d28ea740_35894794')) {function content_5239f8d28ea740_35894794($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
+<?php if ($_valid && !is_callable('content_52482d1ac429f8_08877583')) {function content_52482d1ac429f8_08877583($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Users/jbonigomes/Desktop/projects/ModartePrestashop1.5.4.1/tools/smarty/plugins/modifier.escape.php';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 " lang="<?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
@@ -177,7 +177,7 @@ $_smarty_tpl->tpl_vars['js_uri']->_loop = true;
 					<li><i class="icon-star"></i></li>
 					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>
-/7-bridesmaids">Bridesmaids</a></li>
+/7-bridesmaids">Flower girls</a></li>
 					<li><i class="icon-star"></i></li>
 					<li><a class="md-border-radius" href="<?php echo $_smarty_tpl->tpl_vars['base_dir']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['lang_iso']->value;?>

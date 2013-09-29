@@ -2722,3 +2722,7 @@ html body #footer div#newsletter_block_left {
 #newsletter_block_left input.button_mini {
 	left: -5px !important;
 }
+
+#newsletter_block_left input.inputNew {
+	width: 145px;
+}
