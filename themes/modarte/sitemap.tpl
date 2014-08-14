@@ -34,7 +34,7 @@
 			<li><a href="{$link->getPageLink('new-products')}" title="{l s='View a new product'}">{l s='New products'}</a></li>
 			{if !$PS_CATALOG_MODE}
 			<li><a href="{$link->getPageLink('best-sales')}" title="{l s='View top-selling products'}">{l s='Best sellers'}</a></li>
-			<li><a href="{$link->getPageLink('prices-drop')}" title="{l s='View products with a price drop'}">{l s='Price drop'}</a></li>
+			<li><a href="{$link->getPageLink('prices-drop')}" title="{l s='View products with a price drop'}">{l s='Sale'}</a></li>
 			{/if}
 			{if $display_manufacturer_link OR $PS_DISPLAY_SUPPLIERS}<li><a href="{$link->getPageLink('manufacturer')}" title="{l s='View a list of manufacturers'}">{l s='Manufacturers:'}</a></li>{/if}
 			{if $display_supplier_link OR $PS_DISPLAY_SUPPLIERS}<li><a href="{$link->getPageLink('supplier')}" title="{l s='View a list of suppliers'}">{l s='Suppliers:'}</a></li>{/if}

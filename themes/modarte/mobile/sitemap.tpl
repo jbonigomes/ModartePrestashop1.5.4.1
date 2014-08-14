@@ -62,7 +62,7 @@
 		<ul data-role="listview" data-inset="true">
 			<li><a href="{$link->getPageLink('new-products')}" title="{l s='New products'}">{l s='New products'}</a></li>
 			{if !$PS_CATALOG_MODE}
-			<li><a href="{$link->getPageLink('prices-drop')}" title="{l s='Price drop'}">{l s='Price drop'}</a></li>
+			<li><a href="{$link->getPageLink('prices-drop')}" title="{l s='Sale'}">{l s='Sale'}</a></li>
 			<li><a href="{$link->getPageLink('best-sales', true)}" title="{l s='Best sellers'}">{l s='Best sellers'}</a></li>
 			{/if}
 			{if $display_manufacturer_link OR $PS_DISPLAY_SUPPLIERS}<li><a href="{$link->getPageLink('manufacturer')}">{l s='Manufacturers:'}</a></li>{/if}

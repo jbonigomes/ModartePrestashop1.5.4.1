@@ -23,10 +23,10 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-{capture name=path}{l s='Price drop'}{/capture}
+{capture name=path}{l s='Sale'}{/capture}
 {include file="./breadcrumb.tpl"}
 
-<h1>{l s='Price drop'}</h1>
+<h1>{l s='Sale'}</h1>
 
 {if $products}
 	<div class="content_sortPagiBar">
@@ -49,5 +49,5 @@
 		{include file="./pagination.tpl"}
 	</div>
 	{else}
-	<p class="warning">{l s='No price drop'}</p>
+	<p class="warning">{l s='No Sale'}</p>
 {/if}

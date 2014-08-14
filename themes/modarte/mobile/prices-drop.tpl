@@ -23,7 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-{capture assign='page_title'}{l s='Price drop'}{/capture}
+{capture assign='page_title'}{l s='Sale'}{/capture}
 {include file='./page-title.tpl'}
 
 {if $products}
