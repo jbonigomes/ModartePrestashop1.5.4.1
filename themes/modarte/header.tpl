@@ -91,13 +91,11 @@
 					<li><i class="icon-star"></i></li>
 					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/6-girls">Girls</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/7-bridesmaids">Flower girls</a></li>
-					<li><i class="icon-star"></i></li>
 					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/8-dolls">Dolls</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/9-accessories">Accessories</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/10-exclusive">Exclusive</a></li>
 					<li><i class="icon-star"></i></li>
-					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/new-products">New In</a></li>
+					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/custom-made">Custom made</a></li>
 					<li><i class="icon-star"></i></li>
 					<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/prices-drop">Sale</a></li>
 				</ul>
