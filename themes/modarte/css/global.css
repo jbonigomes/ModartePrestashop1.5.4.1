@@ -2674,7 +2674,7 @@ p.title_block.md-border-radius {
 .md-topnav ul li i {
 	color: #fff;
 	display: block;
-	margin: 9px 33px;
+	margin: 9px 43px;
 	font-size: 9px;
 }
 
@@ -2725,4 +2725,16 @@ html body #footer div#newsletter_block_left {
 
 #newsletter_block_left input.inputNew {
 	width: 145px !important;
+}
+
+#cms #center_column.grid_5 {
+	width: 100%;
+}
+
+#languages_block_top {
+	display: none;
+}
+
+#bookmarks {
+	visibility: hidden;
 }
