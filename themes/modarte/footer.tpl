@@ -91,7 +91,7 @@
 						</li>
 						<li>
 							T: +44 (0)208 000 0000<br>
-							E: <a href="mailto:modarte@hotmail.co.uk">modarte@hotmail.co.uk</a>
+							E: <a href="mailto:modarte@hotmail.co.uk">modarte@modarte.co.uk</a>
 						</li>
 					</ul>
 				</div>
