@@ -2738,3 +2738,7 @@ html body #footer div#newsletter_block_left {
 #bookmarks {
 	visibility: hidden;
 }
+
+#search_block_top #search_query_top {
+	width: 230px;
+}

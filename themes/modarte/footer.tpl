@@ -39,7 +39,7 @@
 						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/6-girls">Girls</a></li>
 						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/8-dolls">Dolls</a></li>
 						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/10-exclusive">Exclusive</a></li>
-						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/custom-made">Custom made</a></li>
+						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/content/6-custom-made">Custom made</a></li>
 						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/prices-drop">Sale</a></li>
 					</ul>
 				</div>
@@ -52,7 +52,7 @@
 						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/content/1-delivery">Delivery &amp; Returns</a></li>
 						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/content/2-legal-notice">Privacy Policy</a></li>
 						<li><a class="md-border-radius" href="{$base_dir}{$lang_iso}/content/4-about-us">About Us</a></li>
-						<li><a class="md-border-radius" href="#">Powered by Backbone Labs</a></li>
+						<li>Powered by Backbone Labs</li>
 					</ul>
 				</div>
 				
@@ -80,17 +80,19 @@
 				<div class="grid_2 md-last-grid">
 					<h4>CONTACT US</h4>
 					<ul>
-						<li><strong>Modarte</strong></li>
 						<li>
 							<p>
+								<strong>Modarte</strong><br/>
 								29th floor, One Canada Square<br/>
 								Canary Wharf<br/>
 								London, UK<br/>
 								E14 5DY
 							</p>
 						</li>
-						<li>Tel: +44 (0)208 000 0000</li>
-						<li>Email: <a href="mailto:modarte@hotmail.co.uk">modarte@hotmail.co.uk</a></li>
+						<li>
+							T: +44 (0)208 000 0000<br>
+							E: <a href="mailto:modarte@hotmail.co.uk">modarte@hotmail.co.uk</a>
+						</li>
 					</ul>
 				</div>
 
