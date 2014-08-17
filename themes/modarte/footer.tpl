@@ -73,7 +73,7 @@
 						<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
 						<li><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
 						<li><a href="#"><i class="icon-instagram"></i>Instagram</a></li>
-						<li><a href="#"><i class="icon-rss"></i>RSS</a></li>
+						<!-- <li><a href="#"><i class="icon-rss"></i>RSS</a></li> -->
 					</ul>
 				</div>
 
@@ -81,7 +81,7 @@
 					<h4>CONTACT US</h4>
 					<ul>
 						<li>
-							<p>
+							<p style="padding-bottom: 0;">
 								<strong>Modarte</strong><br/>
 								29th floor, One Canada Square<br/>
 								Canary Wharf<br/>

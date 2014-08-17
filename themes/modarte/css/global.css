@@ -2150,6 +2150,8 @@ body#index #columns #center_column {
 
 body#index #newsletter_block_left {
 	margin-bottom: 0;
+	margin-top: -10px !important;
+	padding: 5px 0 5px 10px !important;
 }
 
 #header {
@@ -2698,7 +2700,7 @@ p.title_block.md-border-radius {
 }
 
 #search_block_top {
-	right: 33% !important;
+	right: 38% !important;
 }
 
 /* The newsletter in the footer */
@@ -2740,5 +2742,5 @@ html body #footer div#newsletter_block_left {
 }
 
 #search_block_top #search_query_top {
-	width: 230px;
+	width: 230px !important;
 }
